@@ -1,6 +1,6 @@
 {
   "author": "Daniel Dickison <ddickison@carnegielearning.com>",
-  "name": "laravel-mysql-session",
+  "name": "node-laravel-mysql-session",
   "description": "A MySQL session store for node.js connect.",
   "contributors": ["Bill Hunt <bill@krues8dr.com>"],
   "version": "0.1.4",

@@ -12,12 +12,12 @@ Installation
 
 Using [npm][]:
 
-    npm install -g connect-mysql-session
+    npm install opengovfoundation/node-laravel-mysql-session
 
 By cloning the repo:
 
-    git clone git://github.com/CarnegieLearning/connect-mysql-session.git
-    cd connect-mysql-session
+    git clone git@github.com:opengovfoundation/node-laravel-mysql-session.git
+    cd node-laravel-mysql-session
     npm link
 
 (Note: in both cases you may need to use `sudo` when performing the `npm` step.)
@@ -28,7 +28,7 @@ Usage
 The following example uses [expressjs][], but this should work fine using [connectjs][] without the [expressjs][] web app layer.
 
     var express = require('express'),
-        MySQLSessionStore = require('connect-mysql-session')(express);
+        MySQLSessionStore = require('node-laravel-mysql-session')(express);
 
     var app = express.createServer();
     app.use(express.cookieParser());
