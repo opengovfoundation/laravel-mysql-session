@@ -1,8 +1,16 @@
 {
-  "author": "Daniel Dickison <ddickison@carnegielearning.com>",
+  "author": {
+    "name": "Daniel Dickison",
+    "email": "ddickison@carnegielearning.com"
+  },
   "name": "node-laravel-mysql-session",
   "description": "A MySQL session store for node.js connect.",
-  "contributors": ["Bill Hunt <bill@krues8dr.com>"],
+  "contributors": [
+    {
+      "name": "Bill Hunt",
+      "email": "bill@krues8dr.com"
+    }
+  ],
   "version": "0.1.4",
   "repository": {
     "type": "git",
@@ -10,12 +18,12 @@
   },
   "main": "./index.js",
   "engines": {
-    "node": "~0.4"
+    "node": "~0.12"
   },
   "dependencies": {
-    "sequelize": "~1.7.0"
+    "sequelize": "~3.9.0"
   },
   "devDependencies": {
-    "connect": "~1.6"
+    "connect": "~3.4.0"
   }
 }
