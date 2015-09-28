@@ -11,7 +11,7 @@
       "email": "bill@krues8dr.com"
     }
   ],
-  "version": "0.1.4",
+  "version": "0.1.5",
   "repository": {
     "type": "git",
     "url": "git://github.com/opengovfoundation/node-laravel-mysql-session.git"
